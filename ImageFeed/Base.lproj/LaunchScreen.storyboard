@@ -16,15 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="OiP-gr-Ki1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="212-h5-qoP">
                                 <rect key="frame" x="159" y="387" width="75" height="78"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="YP Black"/>
                         <constraints>
-                            <constraint firstItem="OiP-gr-Ki1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MMi-Ko-KCo"/>
-                            <constraint firstItem="OiP-gr-Ki1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aH2-SJ-7MH"/>
+                            <constraint firstItem="212-h5-qoP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Ar-gh-5Uo"/>
+                            <constraint firstItem="212-h5-qoP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pcE-0k-vY2"/>
                         </constraints>
                     </view>
                 </viewController>
