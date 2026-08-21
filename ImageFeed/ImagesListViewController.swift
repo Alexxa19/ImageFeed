@@ -32,7 +32,7 @@ extension ImagesListViewController: UITableViewDelegate {
             return 200
         }
 
-        let imageViewWidth = tableView.bounds.width
+        let imageViewWidth = tableView.bounds.width - 32
         let imageHeight = image.size.height * imageViewWidth / image.size.width
 
         return imageHeight + 8

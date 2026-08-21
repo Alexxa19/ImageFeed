@@ -29,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jxj-uC-6SI">
-                                                    <rect key="frame" x="0.0" y="4" width="393" height="0.0"/>
+                                                    <rect key="frame" x="16" y="4" width="361" height="0.0"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="16"/>
@@ -46,7 +46,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaM-K5-gR8" userLabel="DataLabel">
-                                                    <rect key="frame" x="16" y="-4" width="0.0" height="0.0"/>
+                                                    <rect key="frame" x="24" y="-4" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" name="YP White"/>
                                                     <nil key="highlightedColor"/>
@@ -63,15 +63,15 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FaM-K5-gR8" secondAttribute="trailing" constant="20" symbolic="YES" id="A35-OL-djF"/>
                                                 <constraint firstItem="jxj-uC-6SI" firstAttribute="top" secondItem="pjc-Ad-cTa" secondAttribute="top" constant="4" id="GlD-om-kRB"/>
-                                                <constraint firstItem="FaM-K5-gR8" firstAttribute="leading" secondItem="pjc-Ad-cTa" secondAttribute="leading" constant="16" id="JgJ-Qh-TKF"/>
-                                                <constraint firstAttribute="trailing" secondItem="jxj-uC-6SI" secondAttribute="trailing" id="LbR-3R-lrx"/>
+                                                <constraint firstAttribute="trailing" secondItem="jxj-uC-6SI" secondAttribute="trailing" constant="16" id="LbR-3R-lrx"/>
                                                 <constraint firstAttribute="bottom" secondItem="jxj-uC-6SI" secondAttribute="bottom" constant="4" id="Sxr-sE-NWe"/>
                                                 <constraint firstAttribute="trailing" secondItem="6uc-Vu-Srm" secondAttribute="trailing" id="X2S-qn-OVB"/>
                                                 <constraint firstAttribute="bottom" secondItem="FaM-K5-gR8" secondAttribute="bottom" constant="12" id="fQK-HK-9JJ"/>
                                                 <constraint firstItem="YLl-qy-jr7" firstAttribute="top" secondItem="pjc-Ad-cTa" secondAttribute="top" constant="12" id="g8f-Fv-wDK"/>
-                                                <constraint firstItem="jxj-uC-6SI" firstAttribute="leading" secondItem="pjc-Ad-cTa" secondAttribute="leading" id="h25-YF-MI9"/>
+                                                <constraint firstItem="jxj-uC-6SI" firstAttribute="leading" secondItem="pjc-Ad-cTa" secondAttribute="leading" constant="16" id="h25-YF-MI9"/>
                                                 <constraint firstAttribute="trailing" secondItem="YLl-qy-jr7" secondAttribute="trailing" constant="12" id="pbl-BU-oC9"/>
                                                 <constraint firstItem="YLl-qy-jr7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pjc-Ad-cTa" secondAttribute="leading" constant="20" symbolic="YES" id="qNc-We-6LH"/>
+                                                <constraint firstItem="FaM-K5-gR8" firstAttribute="leading" secondItem="jxj-uC-6SI" secondAttribute="leading" constant="8" id="rxe-SD-ZwZ"/>
                                                 <constraint firstItem="6uc-Vu-Srm" firstAttribute="leading" secondItem="pjc-Ad-cTa" secondAttribute="leading" id="wY1-2x-Bew"/>
                                                 <constraint firstAttribute="bottom" secondItem="6uc-Vu-Srm" secondAttribute="bottom" id="ycF-uJ-36R"/>
                                             </constraints>
