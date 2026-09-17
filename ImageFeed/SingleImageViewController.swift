@@ -31,7 +31,7 @@ final class SingleImageViewController: UIViewController {
     }
 
     @IBAction private func didTapBackButton(_ sender: UIButton) {
-        dismiss(animated: true)
+        presentingViewController?.dismiss(animated: true)
     }
 
     override func viewDidLoad() {
@@ -66,7 +66,7 @@ final class SingleImageViewController: UIViewController {
         let widthScale = visibleSize.width / imageSize.width
         let heightScale = visibleSize.height / imageSize.height
 
-        let initialZoomScale = min(widthScale, heightScale)
+        let initialZoomScale = max(widthScale, heightScale)
 
         scrollView.minimumZoomScale = initialZoomScale
         scrollView.setZoomScale(initialZoomScale, animated: false)
