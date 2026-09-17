@@ -1,6 +1,6 @@
 import UIKit
 
-class ImagesListViewController: UIViewController {
+final class ImagesListViewController: UIViewController {
     
     @IBOutlet private var tableView: UITableView!
     
@@ -14,6 +14,8 @@ class ImagesListViewController: UIViewController {
         formatter.timeStyle = .none
         return formatter
     }()
+    
+    private let currentDate = Date()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -120,7 +122,7 @@ extension ImagesListViewController {
         
         cell.configure(
             image: image,
-            date: dateFormatter.string(from: Date()),
+            date: dateFormatter.string(from: currentDate),
             isLiked: indexPath.row % 2 == 0
         )
     }

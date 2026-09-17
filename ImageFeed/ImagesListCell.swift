@@ -6,7 +6,7 @@ final class ImagesListCell: UITableViewCell {
     private let gradientLayer = CAGradientLayer()
     private let gradientOverlayView = UIView()
 
-    @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet private weak var photoImageView: UIImageView!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var gradientView: UIView!
